@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: none;
+}
+
+h1,h2,.lernMore{
+    font-family: 'Fraunces', serif;
+}
+
+p{
+    font-family: 'Barlow', sans-serif;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/desktop/image-header.jpg');
+    background-size: cover;
+    background-position:center bottom;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo{
+    font-size: 25px;
+    color:white;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu span{
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact{
+    padding: 10px 10px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: rgb(68, 231, 246);
+    color:beige;
+    cursor: pointer;
+}
+
+.contact:hover{
+    background-color: aquamarine;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.arrow{
+    margin-top:90px;
+}
+
+.part-1, .part-2{
+    display: flex;
+}
+
+.part-1 .left,.right, .part-2 .left,.right{
+    width: 50%;
+    height: 350px;
+}
+
+.left .text-container, .right .text-container{
+    text-align: center left;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-top: 120px;
+}
+
+.text-container p{
+    padding-top: 40px;
+    line-height: 1.4;
+}
+
+.part-1 .lernMore, .part-2 .lernMore{
+    padding-top:30px;
+    font-weight:bold;
+    cursor: pointer;
+    display:inline-block;
+}
+
+.part-1 .lernMore:hover{
+    text-decoration: underline yellow 7px;
+    font-size: larger;
+    transition: 0.1s;
+}
+
+.part-1 .right{
+    background-image: url('images/desktop/image-transform.jpg');
+    background-size: cover;
+}
+
+.part-2 .left{
+    background-image: url('images/desktop/image-stand-out.jpg');
+    background-size: cover;
+}
+
+
+@media (max-width: 575px){
+    
+
+}
